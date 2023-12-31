@@ -1,0 +1,11 @@
+module.exports = (sequelize, Sequelize) => {
+    const Video = sequelize.define("video", {
+        name: {
+            type: Sequelize.STRING
+        },
+        videos: {
+            type: Sequelize.STRING
+        }       
+    });
+    return Video;
+};
